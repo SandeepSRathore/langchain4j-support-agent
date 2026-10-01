@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Build output
+target/
+
+# Mailpit's local mailbox database (created by support-agent/compose.yaml)
+support-agent-demo/support-agent/data/
+
+# Local secrets (OpenAI API key) - never commit
+secrets.properties
